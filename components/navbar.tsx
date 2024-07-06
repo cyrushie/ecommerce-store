@@ -5,8 +5,6 @@ import MainNav from "./main-nav";
 import { getAllCategories } from "@/data/categories";
 import NavbarActions from "./navbar-actions";
 
-export const revalidate = 0;
-
 const Navbar = async () => {
   const data = await getAllCategories();
 
