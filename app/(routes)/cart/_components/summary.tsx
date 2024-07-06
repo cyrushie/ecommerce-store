@@ -24,7 +24,7 @@ const Summary = () => {
     if (searchParams.get("canceled")) {
       toast.error("Payment canceled");
     }
-  }, [searchParams]);
+  }, [searchParams, removeAll]);
 
   const onCheckout = async () => {
     try {
