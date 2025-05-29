@@ -6,7 +6,7 @@ import { getAllProducts } from "@/data/products";
 
 const HomePage = async () => {
   const products = await getAllProducts({ isFeatured: true });
-  const billboards = await getBillboard("b6f3b40d-4e4f-4d12-9d0e-b9f316b97d91");
+  const billboards = await getBillboard("e73b1f56-9bd3-4137-905e-b6b75e6fb3ff");
 
   return (
     <Container>
